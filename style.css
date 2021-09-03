@@ -1,0 +1,28 @@
+
+.card {
+    padding: 10px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    backdrop-filter: blur(5px);
+}
+button,.btn{
+    border: none;
+    background-color: rgb(142, 199, 96);
+    color: white;
+}
+h3{
+    background-color: rgb(142, 199, 96);
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    padding:8px;
+}
+.loader-wrapper{
+    position: absolute;
+    left:50%;
+    top: 300px;
+    transform: translate(-50%,-50%);
+    z-index: 99999999;
+}
